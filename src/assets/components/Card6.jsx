@@ -1,9 +1,9 @@
-export default function Card1() {
+export default function Card6() {
   return (
     <div id="card">
       <h2>Porsche 911 Carrera 4s</h2>
       <div className="conteudo-card"> 
-        <img src="imagens/modelo1.svg" alt="Modelo 1" />
+        <img src="imagens/modelo6.svg" alt="Modelo 6" />
         <ul>
             <li><img src="imagens/carlogo.png" alt="carlogo" />Coupe</li>
             <li><img src="imagens/motor.png" alt="motor" />3.0l Twin Turbo</li>

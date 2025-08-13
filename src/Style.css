@@ -27,7 +27,7 @@
     width: 100%;
 }
 
-ul li {
+#barra-menu ul li {
     list-style: none;
     padding: 10px 30px 10px 30px;
     justify-content: space-between;
@@ -35,7 +35,7 @@ ul li {
 
 }
 
-li a {
+#barra-menu ul li a {
     color: #6c6c6c;
     font-weight: bold;
     text-decoration: none;
@@ -146,6 +146,45 @@ nav {
     height: auto;
 }
 
+/* a partir daqui são configurações dos cards */
+
+#card {
+    background-color: #f7f7f7;
+    margin: 20px 40px;
+    box-shadow: 5px 0 5px -2px rgb(201, 116, 46), 
+                0 5px 5px -2px rgb(201, 116, 46);
+}
+
+#card h2 {
+    text-align: center;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.conteudo-card{
+    display: flex;
+    padding: 0px 30px 0px 30px;
+}
+
+#card img {
+    padding: 10px 0px;
+    height: auto;
+}
+
+#card ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
 #card ul li img {
-    padding: 0px 10px 0px 10px;
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+}
+
+#card p {
+    text-align: center;
+    font-weight: normal;
+    color: #818181;
+    padding: 0px 0px 20px 0px;
 }

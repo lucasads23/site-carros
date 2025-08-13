@@ -1,4 +1,9 @@
 import Card1 from './assets/components/Card1.jsx'
+import Card2 from './assets/components/Card2.jsx'
+import Card3 from './assets/components/Card3.jsx'
+import Card4 from './assets/components/Card4.jsx'
+import Card5 from './assets/components/Card5.jsx'
+import Card6 from './assets/components/Card6.jsx'
 
 function Body() {
   return (
@@ -9,20 +14,20 @@ function Body() {
                         <h1>Wypożyczalnia marzeń</h1>
                         <p>Spełnimy Twoje!</p>
                     </div>
-                    <div className= "container">
+                    <div className= "container p-5">
                         <h1>Wypożyczalnia samochodów sportowych</h1>
                         <p>Poznaj naszą flotę!</p>
                         <div className="row">
                           <div className="col-6"><Card1 /></div>
-                          <div className="col-6"><Card1 /></div>
-                          <div className="col-6"><Card1 /></div>
-                          <div className="col-6"><Card1 /></div>
-                          <div className="col-6"><Card1 /></div>
-                          <div className="col-6"><Card1 /></div>
+                          <div className="col-6"><Card2 /></div>
+                          <div className="col-6"><Card3 /></div>
+                          <div className="col-6"><Card4 /></div>
+                          <div className="col-6"><Card5 /></div>
+                          <div className="col-6"><Card6 /></div>
                         </div>
                     </div>
                     <button className="btn-saibaMais">Saiba Mais!</button>
-                    <div className="container">
+                    <div className="container p-5">
                         <h2>Wypożyczalnia samochodów luksusowych</h2>
                         <h3>Poznaj naszą flotę!</h3>
                         <p>
