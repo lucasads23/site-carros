@@ -1,0 +1,63 @@
+import Card1 from './assets/components/Card1.jsx'
+
+function Body() {
+  return (
+    <main>
+        <article>
+            <div id="fundo">
+                <img src="imagens/carros.jpg" alt="carros" />
+                        <h1>Wypożyczalnia marzeń</h1>
+                        <p>Spełnimy Twoje!</p>
+                    </div>
+                    <div className= "container">
+                        <h1>Wypożyczalnia samochodów sportowych</h1>
+                        <p>Poznaj naszą flotę!</p>
+                        <div className="row">
+                          <div className="col-6"><Card1 /></div>
+                          <div className="col-6"><Card1 /></div>
+                          <div className="col-6"><Card1 /></div>
+                          <div className="col-6"><Card1 /></div>
+                          <div className="col-6"><Card1 /></div>
+                          <div className="col-6"><Card1 /></div>
+                        </div>
+                    </div>
+                    <button className="btn-saibaMais">Saiba Mais!</button>
+                    <div className="container">
+                        <h2>Wypożyczalnia samochodów luksusowych</h2>
+                        <h3>Poznaj naszą flotę!</h3>
+                        <p>
+                          Wypożyczalnia samochodów sportowych i luksusowych SexyCars skupia się na jednym celu, a mianowicie na Twojej pełnej satysfakcji z wynajmu auta sportowego u nas. Zagwarantujemy Ci maksimum radości i komfortu użytkowania aut sportowych w naszej wypożyczalni. Staramy się także, aby ta przyjemność nie była zbyt kosztowna. 
+                          Wynajmujemy swoje samochody sportowe w całej Polsce, a najczęściej w miastach: Kraków, Katowice, Wrocław, Warszawa bez pobierania kaucji i w dobrej cenie. Wypożyczamy nasze auta sportowe i luksusowe na dobę lub na dłuższy okres czyli długoterminowo. Wybierając wynajem w miastach Kraków, Warszawa, Katowice, Wrocław, Rzeszów, Częstochowa, Kielce, Częstochowa, Bydgoszcz, Białystok możesz spodziewać się od nas profesjonalnej obsługi. 
+                        </p>
+                        <img className="mapa" src="imagens/mapa.jpg" alt="mapa" />
+                        <p>
+                          Samochody sportowe to kategoria samochodów, w których większy nacisk kładziony jest na dynamikę jazdy niż na praktyczność. Jednocześnie są to samochody cywilne, które muszą spełniać wszystkie przepisy techniczne dotyczące ruchu na drogach publicznych.
+                        </p>
+                        <p>Mogą to być:</p>
+                        <p>Auta zmodyfikowane z klasycznych nadwozi na nadwozia sportowe (np. w wyniku tuningu) </p>
+                        <img className ="carros" src="imagens/carro1.jpg" alt="carro1" />
+                        <p>2019 Toyota Corolla Hatchback (tuningowana)</p>
+                        <p>Typowo sportowe auta produkowane do jazdy dającej frajdę</p>
+                        <img className ="carros" src="imagens/carro2.jpg" alt="carro2" />
+                        <p>2018 Lamborghini Huracan LP580</p>
+                        <p>Auta ekstremalne, przeznaczone do jazdy wyczynowej, wyścigowej</p>
+                        <img className ="carros" src="imagens/carro3.jpg" alt="carro3" />
+                        <p>2016 Aston Martin Vulcan</p>
+                        <p>Zatem zanim wybierzesz auta sportowe do wypożyczenia czy kupienia, dowiedz się, który z nich warto najbardziej wybrać. My natomiast zapewnimy odpowiednie przygotowanie i profesjonalną obsługę:</p>
+                        <ul>
+                          <li><img src="imagens/check.png" alt="check" />Przygotowanie samochodu do jazdy</li>
+                          <li><img src="imagens/check.png" alt="check" />Pełne ubezpieczenie</li>
+                          <li><img src="imagens/check.png" alt="check" />Brak limitu kilometrów</li>
+                          <li><img src="imagens/check.png" alt="check" />Podstawienie pod wskazany adres</li>
+                          <li><img src="imagens/check.png" alt="check" />Możliwość wynajmu bez kaucji</li>
+                          <li><img src="imagens/check.png" alt="check" />Możliwość wynajmu z kierowcą</li>
+                          <li><img src="imagens/check.png" alt="check" />Możliwość wynajmu z kierowcą</li>
+                          <li><img src="imagens/check.png" alt="check" />Możliwość wynajmu z kierowcą</li>
+                        </ul>
+                        <button className="btn-saibaMais">Saiba Mais!</button>
+                    </div>
+        </article>
+    </main>
+  );
+}
+export default Body;

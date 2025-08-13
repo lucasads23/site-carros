@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.barra-topo {
+    background-color: #1c1c1c;
+    
+}
+
+
+.TextoTopoVermelho {
+    color: #ff4d00;
+    margin: 20px 20px 0px 20px;
+}
+
+.TextoTopoBranco {
+    color: #ffffff;
+    margin: 0px 20px 20px 20px;
+    
+}
+
+.flex {
+    display: flex;
+    width: 100%;
+}
+
+ul li {
+    list-style: none;
+    padding: 10px 30px 10px 30px;
+    justify-content: space-between;
+    margin: 0px;
+
+}
+
+li a {
+    color: #6c6c6c;
+    font-weight: bold;
+    text-decoration: none;
+    justify-content: space-between;
+    padding: 0 20px;
+    
+}
+
+#barra-menu{
+    align-items: center;
+    justify-content: center;
+}
+
+#logo-menu{
+    margin: 10px 0px 10px 0px;
+    padding: 0px 50px 0px 0px;
+}
+
+#redes img {
+    padding: 10px 0px 10px 10px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#barra-menu ul {
+    padding: 10px 20px 10px 30px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+#barra-menu #redes-sociais {
+    padding: 0px 0px 0px 180px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#icones-redes-sociais {
+  padding: 0px 5px;
+  display: flex;
+}
+
+#icones-redes-sociais img {
+    padding: 5px 5px 5px 10px;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+}
+
+/* a partir daqui são configurações do main */
+
+#banner {
+    background: rgba(0,0,0,0.5);
+    position: relative;
+    z-index: 2;
+}
+
+#fundo h1 {
+    width: 100%;
+    font-size: 20px;
+    padding: 20px 0px 0px 100px;
+    margin: 0px;
+    color: #ff4d00;
+    position: absolute;
+    top: 370px;
+    left: 0px;
+    background: rgba(0,0,0,0.5);
+}
+
+#fundo p {
+    width: 100%;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px 0px 20px 100px;
+    margin: 0px;
+    color: #ffffff;
+    position: absolute;
+    top: 414px;
+    left: 0px;
+    background: rgba(0,0,0,0.5);
+}
+
+#fundo {
+    position: relative;
+    width: 100%;
+    height : auto;
+}
+
+#fundo img {
+    width: 100%
+}
+
+.mapa{
+    width: 100%;
+    height: auto;
+}
+
+.carros {
+    width: 100%;
+    height: auto;
+}
+
+#card ul li img {
+    padding: 0px 10px 0px 10px;
+}
