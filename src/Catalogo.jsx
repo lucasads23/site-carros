@@ -1,20 +1,17 @@
 import Header from './Header.jsx'
 import Footer from './Footer.jsx'
-import Home from './Home.jsx'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './Style.css'
 
-function App() {
 
-
+export default function Catalogo() {
   return (
-    <>
+    <div>
       <Header />
-      <Home />
+      <h1>Catálogo de Carros</h1>
+      {/* Aqui você pode adicionar a lógica para exibir os carros disponíveis */}
       <Footer />
-    </>
+    </div>
   )
 }
-
-export default App

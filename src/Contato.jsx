@@ -1,20 +1,16 @@
 import Header from './Header.jsx'
 import Footer from './Footer.jsx'
-import Home from './Home.jsx'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './Style.css'
 
-function App() {
-
-
+export default function Contato() {
   return (
-    <>
+    <div>
       <Header />
-      <Home />
+      <h1>Contato</h1>
+      {/* Aqui você pode adicionar a lógica para exibir as informações de contato */}
       <Footer />
-    </>
+    </div>
   )
 }
-
-export default App
