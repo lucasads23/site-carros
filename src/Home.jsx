@@ -1,9 +1,9 @@
-import Card1 from '../components/Card1.jsx'
-import Card2 from '../components/Card2.jsx'
-import Card3 from '../components/Card3.jsx'
-import Card4 from '../components/Card4.jsx'
-import Card5 from '../components/Card5.jsx'
-import Card6 from '../components/Card6.jsx'
+import Card1 from './assets/components/Card1.jsx'
+import Card2 from './assets/components/Card2.jsx'
+import Card3 from './assets/components/Card3.jsx'
+import Card4 from './assets/components/Card4.jsx'
+import Card5 from './assets/components/Card5.jsx'
+import Card6 from './assets/components/Card6.jsx'
 
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 import { Link } from "react-router-dom"
