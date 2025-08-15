@@ -93,6 +93,29 @@ nav {
     max-width: 100%;
 }
 
+#checklist {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+#checklist ul {
+    padding: 0;
+    margin: 0px 100px;
+}
+
+#checklist ul li {
+    list-style: none;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px 5px 10px;
+}
+
+#checklist ul li img {
+    padding: 5px;
+}
+
 /* a partir daqui são configurações do main */
 
 #banner {
@@ -146,6 +169,7 @@ nav {
     height: auto;
 }
 
+
 /* a partir daqui são configurações dos cards */
 
 #card {
@@ -187,4 +211,67 @@ nav {
     font-weight: normal;
     color: #818181;
     padding: 0px 0px 20px 0px;
+}
+
+/*configuração dos botoes*/
+
+.btn-personalizado {
+    display: inline-block;
+    width: 170px;
+    background-color: #ffffff;
+    border: 2px solid #ff4d00;
+    color: #1c1c1c;
+    padding: 10px 40px;
+    margin: 20px 43%;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-personalizado:hover {
+    background-color: #ff4d00;
+    color: #ffffff;
+}
+
+
+/*configurações do footer*/
+
+#barra-footer{
+   background-color: #1c1c1c;
+   color: #ffffff;
+   padding: 40px 0;
+   text-align: center;
+}
+
+.direitos-autorais {
+    display: inline-flex;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.texto-negrito {
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+
+#lista-footer ul li {
+    padding: 10px 40px;
+    list-style: none;
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.TextoFooterVermelho {
+    color: #ff4d00;
+    font-size: 12px;
+    margin: 20px 20px 0px 20px;
+}
+
+#lista-footer ul li img {
+    margin-right: 5px;
+    align-items: center;
+    justify-content: center;
 }
