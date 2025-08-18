@@ -1,9 +1,7 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <BrowserRouter>
     <header className="center">
             <div className="barra-topo flex align-items-center justify-content-center">
                 <div>
@@ -33,11 +31,11 @@ function Header() {
                 </div>
             </div>
             <nav id="barra-menu">
-                        <img id="logo-menu" src="imagens/Logo Redesign.png" alt="Logo" />
+                        <Link to="/"><img id="logo-menu" src="imagens/Logo Redesign.png" alt="Logo" /></Link>
                         <ul>
-                            <li><a href="#">Automóveis</a></li>
-                            <li><a href="#">Informações</a></li>
-                            <li><a href="#">Contato</a></li>
+                            <li><Link to="/">Home</Link></li>
+                            <li><Link to="/catalogo">Catálogo</Link></li>
+                            <li><Link to="/contato">Contato</Link></li>
                         </ul>
                             <a id="redes" href="https://www.instagram.com/" rel="_blank">
                                 <img src="imagens/IG.png" alt="Ícone instagram" />
@@ -50,7 +48,6 @@ function Header() {
                             </a>
             </nav>
     </header>
-    </BrowserRouter>
   )
 }
 export default Header;
