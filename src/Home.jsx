@@ -1,9 +1,5 @@
-import Card1 from './assets/components/Card1.jsx'
-import Card2 from './assets/components/Card2.jsx'
-import Card3 from './assets/components/Card3.jsx'
-import Card4 from './assets/components/Card4.jsx'
-import Card5 from './assets/components/Card5.jsx'
-import Card6 from './assets/components/Card6.jsx'
+
+import CardProps from './assets/components/CardProps.jsx'
 
 import { Link } from "react-router-dom"
 
@@ -21,12 +17,12 @@ function Home() {
                           <h1>Wypożyczalnia samochodów sportowych</h1>
                           <p>Poznaj naszą flotę!</p>
                           <div className="row">
-                            <div className="col-6 col-md-6 col-sm-12"><Card1 /></div>
-                            <div className="col-6 col-md-6 col-sm-12"><Card2 /></div>
-                            <div className="col-6 col-md-6 col-sm-12"><Card3 /></div>
-                            <div className="col-6 col-md-6 col-sm-12"><Card4 /></div>
-                            <div className="col-6 col-md-6 col-sm-12"><Card5 /></div>
-                            <div className="col-6 col-md-6 col-sm-12"><Card6 /></div>
+                            <div className="col-6 col-md-6 col-sm-12"><CardProps titulo="Porsche 911 Carrera 4s" imagem="imagens/modelo1.svg" modeloCar="Coupe" modeloMotor="3.0l Twin Turbo" cor="Szary" km="450 koni" valor="Valor: R$ 250.000" /></div>
+                            <div className="col-6 col-md-6 col-sm-12"><CardProps titulo="Porsche 718 Cayman" imagem="imagens/modelo2.svg" modeloCar="Coupe" modeloMotor="2.0l Turbo" cor="Żółty" km="300 koni" valor="Valor: R$ 300.000" /></div>
+                            <div className="col-6 col-md-6 col-sm-12"><CardProps titulo="Mercedes A45 AMG" imagem="imagens/modelo3.svg" modeloCar="Hothatch" modeloMotor="2.0l Turbo" cor="Żółty" km="421 koni" valor="Valor: R$ 310.000" /></div>
+                            <div className="col-6 col-md-6 col-sm-12"><CardProps titulo="BMW M5 Competition" imagem="imagens/modelo4.svg" modeloCar="Coupe" modeloMotor="3.0l Twin Turbo" cor="Szary" km="450 koni" valor="Valor: R$ 280.000" /></div>
+                            <div className="col-6 col-md-6 col-sm-12"><CardProps titulo="BMW M4" imagem="imagens/modelo5.svg" modeloCar="Coupe" modeloMotor="3.0l Twin Turbo" cor="Szary" km="450 koni" valor="Valor: R$ 290.000" /></div>
+                            <div className="col-6 col-md-6 col-sm-12"><CardProps titulo="Nissan GT-R" imagem="imagens/modelo6.svg" modeloCar="Coupe" modeloMotor="3.0l Twin Turbo" cor="Szary" km="450 koni" valor="Valor: R$ 290.000" /></div>
                           </div>
                       <Link to="/catalogo"><button className ="btn-personalizado"> Catálogo </button></Link>
                       </div>
