@@ -1,5 +1,9 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+
 function Header() {
   return (
+    <BrowserRouter>
     <header className="center">
             <div className="barra-topo flex align-items-center justify-content-center">
                 <div>
@@ -46,6 +50,7 @@ function Header() {
                             </a>
             </nav>
     </header>
+    </BrowserRouter>
   )
 }
 export default Header;

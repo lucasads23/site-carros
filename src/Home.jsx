@@ -4,9 +4,11 @@ import Card3 from './assets/components/Card3.jsx'
 import Card4 from './assets/components/Card4.jsx'
 import Card5 from './assets/components/Card5.jsx'
 import Card6 from './assets/components/Card6.jsx'
+import Content from './assets/components/Content.jsx'
 
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 import { Link } from "react-router-dom"
+
 
 function Home() {
   return (
