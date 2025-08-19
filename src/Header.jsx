@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 
+import './Style.css'
+
 function Header() {
   return (
     <header className="center">

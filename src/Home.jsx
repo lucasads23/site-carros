@@ -1,5 +1,6 @@
-
 import CardProps from './assets/components/CardProps.jsx'
+
+import './Style.css'
 
 import { Link } from "react-router-dom"
 
@@ -14,8 +15,8 @@ function Home() {
                           <p>Spełnimy Twoje!</p>
                       </div>
                       <div className= "container p-5">
-                          <h1>Wypożyczalnia samochodów sportowych</h1>
-                          <p>Poznaj naszą flotę!</p>
+                          <h1 id="tituloConteudo">Carros em Destaque!</h1>
+                          <p id="descricaoConteudo">Clique em "saiba mais" e conheça todos os modelos.</p>
                           <div className="row">
                             <div className="col-6 col-md-6 col-sm-12"><CardProps titulo="Porsche 911 Carrera 4s" imagem="imagens/modelo1.svg" modeloCar="Coupe" modeloMotor="3.0l Twin Turbo" cor="Szary" km="450 koni" valor="Valor: R$ 250.000" /></div>
                             <div className="col-6 col-md-6 col-sm-12"><CardProps titulo="Porsche 718 Cayman" imagem="imagens/modelo2.svg" modeloCar="Coupe" modeloMotor="2.0l Turbo" cor="Żółty" km="300 koni" valor="Valor: R$ 300.000" /></div>
@@ -24,7 +25,7 @@ function Home() {
                             <div className="col-6 col-md-6 col-sm-12"><CardProps titulo="BMW M4" imagem="imagens/modelo5.svg" modeloCar="Coupe" modeloMotor="3.0l Twin Turbo" cor="Szary" km="450 koni" valor="Valor: R$ 290.000" /></div>
                             <div className="col-6 col-md-6 col-sm-12"><CardProps titulo="Nissan GT-R" imagem="imagens/modelo6.svg" modeloCar="Coupe" modeloMotor="3.0l Twin Turbo" cor="Szary" km="450 koni" valor="Valor: R$ 290.000" /></div>
                           </div>
-                      <Link to="/catalogo"><button className ="btn-personalizado"> Catálogo </button></Link>
+                      <Link to="/catalogo"><button className ="btn-personalizado"> Saiba mais </button></Link>
                       </div>
                       <div className="container p-5">
                           <h2>Wypożyczalnia samochodów luksusowych</h2>
@@ -61,7 +62,7 @@ function Home() {
                             </ul>
                           </div>
 
-                          <Link to="/catalogo"><button className="btn-personalizado"> Clique aqui! </button></Link>
+                          <Link to="/contato"><button className="btn-personalizado"> Clique aqui! </button></Link>
 
                       </div>
           </article>
