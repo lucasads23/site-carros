@@ -1,13 +1,13 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-import Header from './Header.jsx'
-import Footer from './Footer.jsx'
-import Home from './Home.jsx'
-import Catalogo from './Catalogo.jsx'
-import Contato from './Contato.jsx'
+import Header from './assets/components/Header.jsx'
+import Footer from './assets/components/Footer.jsx'
+import Home from './assets/pages/Home.jsx'
+import Catalogo from './assets/pages/Catalogo.jsx'
+import Contato from './assets/pages/Contato.jsx'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
-import './Style.css'
+import './assets/css/Style.css'
 
 function App() {
 

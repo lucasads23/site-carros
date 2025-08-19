@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
-import './Style.css'
+import '../css/Style.css'
 
-import CardProps from './assets/components/CardProps.jsx'
+import CardProps from '../components/CardProps.jsx'
 
 
 export default function Catalogo() {

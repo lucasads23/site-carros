@@ -1,6 +1,6 @@
-import CardProps from './assets/components/CardProps.jsx'
+import CardProps from '../components/CardProps.jsx'
 
-import './Style.css'
+import '../css/Style.css'
 
 import { Link } from "react-router-dom"
 

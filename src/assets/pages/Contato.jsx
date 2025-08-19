@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
-import './Style.css'
+import '../css/Style.css'
 
 export default function Contato() {
   return (
